@@ -1,0 +1,13 @@
+.fl{
+    float: left;
+     width: 200px
+}
+.line{
+    border: 1px solid black;
+}
+.clear{
+    clear: left;
+}
+.pad{
+    margin: 40px 5px;
+}

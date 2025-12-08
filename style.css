@@ -1,0 +1,45 @@
+*{
+    margin: 7px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+}
+.logo {
+    width: 20px;
+    height: 20px;
+}
+.header-text{
+    position: absolute;
+    left: 40%;
+
+}
+.joke{
+    position: absolute;
+    right: 10%;
+    display: inline-flex;
+    flex-direction: column; 
+    font-size: 5px;
+    align-self: flex-end;
+}
+.tooltip{
+ display: none;
+ background: yellow;
+  border: 1px solid black;
+ 
+}
+.joke:hover .tooltip{
+    display: flex;
+    
+}
+.h1{
+     text-align: center;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between; 
+    width: 400px; 
+}
