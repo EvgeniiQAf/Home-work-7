@@ -1,0 +1,40 @@
+.rel{
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+
+
+.container {
+    position: relative; 
+}
+
+.text-rel {
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+
+.absol {
+    position: absolute;
+    bottom: 2%; 
+}
+.fixx{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            background: lightblue;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            background: lightcoral;
+            margin-top: 200px;
+        }
